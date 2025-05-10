@@ -23,7 +23,7 @@ function addManager(){
         role: 'Admin'
     }
     // add the new user to the database - and log out the response or error
-    axios.post('/user', user)
+    axios.post('/add_user', user)
       .then(function (response) {
         console.log(response);
       })
